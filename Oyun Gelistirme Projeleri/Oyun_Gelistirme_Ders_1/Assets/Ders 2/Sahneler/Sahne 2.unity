@@ -407,7 +407,7 @@ MonoBehaviour:
   helloWorld: {fileID: 496498242}
   sayacText: {fileID: 1567117440}
   sayacResmi: {fileID: 1342818258}
-  sayac: 10
+  sayac: 5
 --- !u!4 &675749471
 Transform:
   m_ObjectHideFlags: 0
@@ -754,7 +754,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00:10
+  m_Text: 00:05
 --- !u!222 &1567117441
 CanvasRenderer:
   m_ObjectHideFlags: 0

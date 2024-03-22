@@ -15,7 +15,7 @@ public class ikinciders : MonoBehaviour
 
     public Image sayacResmi;
 
-    public float sayac = 10;
+    public float sayac = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,8 +31,9 @@ public class ikinciders : MonoBehaviour
         if (sayac>0)
         {
             sayac = sayac - Time.deltaTime;
-            sayacText.text = sayac.ToString();
+          
             helloWorld.text = "Ders Baþlýyor...";
+            sayacText.text = System.TimeSpan.FromSeconds(sayac).ToString(@"mm\:ss");
         }
         else if(sayac<=0)
         {
