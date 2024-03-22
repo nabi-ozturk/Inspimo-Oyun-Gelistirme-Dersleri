@@ -35,12 +35,12 @@ public class ikinciders : MonoBehaviour
             helloWorld.text = "Ders Baþlýyor...";
         }
         else if(sayac<=0)
-        { 
-        
+        {
+            sayac = 0;
+            sayacResmi.gameObject.SetActive(false);
+            sayacText.text = "";
+            helloWorld.text = "Ders Baþladý!..";
         }
-        sayac = 0;
-        sayacResmi.gameObject.SetActive(false);
-        sayacText.text = "";
-        helloWorld.text = "Ders Baþladý!..";
+        
     }
 }
