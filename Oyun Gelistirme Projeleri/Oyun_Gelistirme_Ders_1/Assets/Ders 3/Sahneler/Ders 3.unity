@@ -1442,6 +1442,7 @@ GameObject:
   - component: {fileID: 1877462959}
   - component: {fileID: 1877462961}
   - component: {fileID: 1877462960}
+  - component: {fileID: 1877462962}
   m_Layer: 5
   m_Name: Kum Saati Metni
   m_TagString: Untagged
@@ -1501,7 +1502,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 19:02
+  m_Text: 5
 --- !u!222 &1877462961
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1510,6 +1511,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877462958}
   m_CullTransparentMesh: 1
+--- !u!114 &1877462962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877462958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d3a0a11a78e504293bf06d40d49607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeValue: 15
+  timerText: {fileID: 1877462960}
 --- !u!1 &1952965183
 GameObject:
   m_ObjectHideFlags: 0

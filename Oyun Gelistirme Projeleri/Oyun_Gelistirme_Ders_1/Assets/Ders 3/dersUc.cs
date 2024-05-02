@@ -23,6 +23,7 @@ public class dersUc : MonoBehaviour
     public string dogruCevap;
 
 
+
     public Image aSikkiDogrulukResmi;
     public Image bSikkiDogrulukResmi;
     private string cevap;
